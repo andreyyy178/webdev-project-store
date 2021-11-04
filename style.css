@@ -1,0 +1,149 @@
+.carousel-item{
+    height: 500px;
+    background: chocolate;
+    color: white;
+    position: relative;
+}
+
+
+
+.carousel-item:nth-child(1) {
+    
+     background-color: white; 
+     background-image: url("https://generative-placeholders.glitch.me/image?width=2000&height=400&style=circles&gap=40%22");
+    
+  }
+
+  .carousel-item:nth-child(2) {
+    
+    background-color: white;
+    background-image: url("https://generative-placeholders.glitch.me/image?width=2000&height=400&style=triangles&gap=40%22");
+    
+  }
+
+  .carousel-item:nth-child(3) {
+      
+    background-color: white;
+    background-image: url("https://generative-placeholders.glitch.me/image?width=2000&height=400&style=mondrian&gap=40%22");
+   
+  }
+
+.container {
+    /* background-color: darkslategray; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 20px;
+    max-width: 600px;
+}
+
+
+@media screen and (max-width: 786px) {
+
+    .container {
+      display: none;
+    }
+  
+  }
+
+body{
+    background-color: black;
+}
+
+.centeraboslute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.fa-shopping-bag{
+    color: white;
+    padding-right: 30px;
+}
+
+.fa-comment-dots{
+    color: black;
+}
+
+.gradient{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(209,218,228,1) 100%);
+
+    
+}
+
+
+h2{
+    margin-top: 7px;
+}
+
+.d-flex {
+    display: flex;
+    max-width: 2000px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+}
+
+.card {
+    color:white;
+    flex-basis: 300px;
+    min-height: 500px;
+    margin-left:20px;
+    margin-right:20px;
+    display: flex;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.card-btn{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.card:nth-child(1) {
+    background-image: url("https://generative-placeholders.glitch.me/image?width=300&height=500&style=circles&gap=40%22");
+}
+
+.card:nth-child(2) {
+    background-image: url("https://generative-placeholders.glitch.me/image?width=300&height=500&style=triangles&gap=40%22");
+}
+
+.card:nth-child(3) {
+    background-image: url("https://generative-placeholders.glitch.me/image?width=300&height=500&style=joy-division&gap=40%22");
+}
+
+.card:nth-child(4) {
+    background-image: url("https://placebear.com/g/300/500");
+}
+
+
+.text-underline{
+    text-decoration: underline;
+}
+
+span{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.shrink-text {
+    margin: 0 auto; /* center element horizontally */
+    text-align: center;
+    width: 800px;
+    max-width: 90%;
+}
+
+
+.input-amt-shrink{
+    width: 80px;
+}
+
+
+
+
